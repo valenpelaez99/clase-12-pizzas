@@ -1,0 +1,174 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F3F3F3;
+}
+
+header {
+    display: flex;
+    background-color: #222222;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.0625);
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 10px 20px;
+}
+
+.logotipo {
+    display: flex;
+    justify-content: space-between;
+    width: 234px;
+    height: 80px;
+}
+
+.logotipo img {
+    width: 92px;
+    height: 80px;
+}
+
+.empresa {
+    width: 132px;
+    height: 28px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.pizza {
+    color: #39B24A;
+}
+
+.front {
+    color: #FC200C;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 284px;
+    height: 19px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #F3F3F3;
+    text-decoration: none;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+}
+
+.delivery, .pizzas {
+    height: 350px;
+    width: 491px;
+    border-radius: 5px;
+}
+
+.delivery {
+    background-image: url(../img/delivery.jpg);
+}
+
+.aviso {
+    margin: 20px;
+}
+
+.pizzas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.ranking {
+    display: flex;
+    width: 385px;
+    height: 250px;
+    justify-content: space-between; 
+    align-content: flex-end;  
+    /* align-items: flex-end;  */
+}
+
+.pizzas img{
+    height: 129px;
+    width: 92px;
+    margin-top: 70px;    
+}
+
+.lista {
+    height: 178px;
+    width: 173px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 40px;
+}
+
+h2 {
+    color: #FC200C;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.compra {
+    color: white;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    height: 178px;
+    width: 173px;
+}
+
+
+
+footer{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.logotipo-footer {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: space-between;
+    width: 212px;
+
+}
+
+.menu-footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 78px;
+    height: 112px;
+    padding-left: 20px;
+}
+
+.logotipo-footer .empresa {
+    font-size: 20px;
+    height: 23px;
+    width: 110px;
+}
+
+
+
